@@ -179,6 +179,25 @@ header h1  {
    
 }
 
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.nav-menu {
+    display: flex ;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+
+.hamburger {
+    display: block;
+    z-index: 1;
+}
+
 aside a {
     color : #70F8BA
 }
@@ -202,6 +221,25 @@ aside a {
     text-align: center;
     margin-left: 370px;
     border-bottom: #70F8BA 1px solid 
+
+}
+
+
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+
+.bar {
+    display: block;
+    width: 35px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out ;
+    background-color:  white;
+    z-index: 1;
 }
 
 @media screen and (min-width: 740px) {
@@ -211,6 +249,8 @@ aside a {
         justify-content: space-around;
     
     }
+
+    .nav-
 
     .hamburger{
         display: block;
