@@ -1,0 +1,35 @@
+
+
+.Card ul{
+    flex-direction: column;
+}
+
+header{
+    padding: 3rem;
+
+}
+
+.nav-menu {
+    object-fit: contain;
+}
+
+nav ul {
+    display: flex;
+    text-align: center;
+}
+
+
+@media only screen and (min-width:56.25em) {
+
+    nav{
+        height: fit-content;
+    }
+    
+    nav ul {
+        display: flex;
+      }
+    
+
+}
+
+

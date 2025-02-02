@@ -4,7 +4,7 @@
 
 *{
     margin: 5px auto;
-    padding: 10px
+    padding: 10px;
 }
 
 
@@ -36,10 +36,6 @@ header nav a {
     padding: 45px;
 }
 
-ul {
-    flex-direction: column;
-    align-items: center;
-}
 
 header nav {
 
@@ -102,6 +98,12 @@ header nav {
 
 }
 
+.hamburger {
+    display: none;
+    cursor: pointer;
+}
+
+
 header , footer {
     margin: 5px auto;
     display: flex;
@@ -110,7 +112,7 @@ header , footer {
     text-align: center;
     flex-direction: column;
     max-width: 2000px;
-    padding: 2em
+    padding: 3em
 
 }
 
@@ -121,10 +123,10 @@ footer{
 
 .Card img {
         width: 200px;
-        margin-right: 200px;
+        margin-right: 150px;
         margin: auto;
         display: flex;
-        right: 200px;
+        right: 170px;
         float: right;
         
 }
@@ -146,11 +148,14 @@ footer{
 
 }
 
+main {
+    display: block;
+}
 
 .Card p {
     
     font-family: 'Noto sans', sans-serif;
-    color: var(--nav-link-color);
+    color: #fff;
     margin-top: 40px;
     font-size: 1.5rem;
     
@@ -159,6 +164,7 @@ footer{
 .Card h1 {
     text-align: center;
     margin-left: 600px;
+    font-size: large;
 }
 
 .grid {
@@ -166,6 +172,12 @@ footer{
     align-items: center;
     grid-column: 2/3;
 
+}
+
+.navbar{
+    display: flex;
+    padding: 0 24px;
+    margin: 5px;
 }
 
 main{
@@ -190,17 +202,79 @@ header h1  {
     display: flex ;
     justify-content: center;
     margin-left: 150px;
+    color: #fff;
 }
 
+.certificate {
+    display: grid;
+    gap: 2rem;
+  }
+  
+  .certificate h2 {
+    color: #000;
+  }
+
+
+
+  .buttons {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .completed:hover{
+    background-color: #D64933;
+  }
+
+  .not-completed:hover{
+    background-color: #7CB4B8;
+  }
+  
+  .completed {
+    background-color: #70F8BA;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  .not-completed {
+    background-color: #ffff;
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+  }
+  
+  header {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  nav {
+    display: flex;
+    grid-column: 3 / 5;
+    grid-row: 1 / 2;
+    justify-self: end;
+    list-style-type: none;
+
+  }
+
+  nav ul li {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 
 .hamburger {
-    display: block;
-    z-index: 1;
+    display: none;
+    cursor: pointer;
 }
 
 aside a {
-    color : #70F8BA
+    color : #fff;
 }
+
+
 .Card{
     padding: 35rem ;
     color: var(--nav-link-color);
@@ -211,16 +285,16 @@ aside a {
     padding: 2rem;
     border: 1px solid #000000 ;
     position: relative ;
-    width: 50em ;
+    width: 40em ;
     text-align: center;
 }
 
 .Card h1{
     display: flex;
-    color: #70F8BA;
+    color: #000;
     text-align: center;
     margin-left: 370px;
-    border-bottom: #70F8BA 1px solid 
+    border-bottom: #70F8BA 1px solid ;
 
 }
 
@@ -230,6 +304,10 @@ aside a {
     cursor: pointer;
 }
 
+.buttons:hover  {
+    letter-spacing: 2px;
+    background-color: #7CB4B8;
+}
 
 .bar {
     display: block;
@@ -242,15 +320,13 @@ aside a {
     z-index: 1;
 }
 
-@media screen and (min-width: 740px) {
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
 
-    nav ul {
-        display: flex;
-        justify-content: space-around;
-    
-    }
+@media only screen and (min-width:760px){
 
-    .nav-
 
     .hamburger{
         display: block;
@@ -271,8 +347,12 @@ aside a {
         z-index: 1;
     }
 
-    .nav-bar {
+    .navbar {
         justify-content: center;
+    }
+
+    header , footer {
+        width: 100%
     }
 
     
@@ -288,15 +368,14 @@ aside a {
         width: 100%;
         background-color: hsla(0,0%,0%, .3);
         transition: top 0.3s;
-        backdrop-filter: blur(24px);
-        -webkit-backdrop-filter: blur(24px);
+    
 
     }
 
 
     main{
         max-width: 1200px;
-        margin: auto;
+        width: 80%;
     }
 
 }
