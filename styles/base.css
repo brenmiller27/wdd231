@@ -202,7 +202,7 @@ header h1  {
     display: flex ;
     justify-content: center;
     margin-left: 150px;
-    color: #fff;
+    color: black;
 }
 
 .certificate {
@@ -366,7 +366,6 @@ aside a {
         justify-content: center;
         flex-direction: column;
         width: 100%;
-        background-color: hsla(0,0%,0%, .3);
         transition: top 0.3s;
     
 
