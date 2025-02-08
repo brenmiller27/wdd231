@@ -10,322 +10,172 @@
     <meta name="keywords" content="Home Page">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <meta property="og:title" content="Lynnwood Business Chamber">
+    <meta property="og:title" content="Honeyville Chamber of Commerce">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://brenmiller27.github.io/wdd231/chamber/index.html">
     <meta property="og:image" content="https://github.com/brenmiller27/wdd231/blob/main/chamber/images/hero.WEBP">
     <meta property="og:site_name" content="Honeyville Business Chamber">
     <meta property="og:description">
-    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="scripts/index.js"></script>
 </head>
+<body>
+    <header class="top-banner">
 
-<body class="homepage-body">
-    <div id="banner" class="banner" role="alert">
-        <p>Attend the Lynnwood Chamber of Commerce meet and greet 🤝 on Wednesday at 7:00 p.m.</p>
-        <button id="closeBanner" class="close-button" aria-label="Close">×</button>
-    </div>
-
-    <header>
-        <button class="menu-btn" aria-label="Toggle menu button">
-            <svg>
-                <use xlink:href="images/sprite.svg#icon-icon-menu"></use>
-            </svg>
-        </button>
-
-        <div class="logo-box">
-            <a href="index.html"><img src="images/chamber-logo.png" alt="Honeyville Business Chamber logo" class="logo"
-                    width="323" height="130">
-            </a>
-        </div>
-
-        <nav class="header-nav">
-            <ul class="nav-list">
-                <li><a href="index.html" class="nav-links"><svg>
-                            <use xlink:href="images/sprite.svg#icon-home"></use>
-                        </svg> HOME</a></li>
-                <li><a href="discover.html" class="nav-links"><svg>
-                            <use xlink:href="images/sprite.svg#icon-magnifying-glass"></use>
-                        </svg> DISCOVER</a></li>
-                <li><a href="directory.html" class="nav-links"><svg>
-                            <use xlink:href="images/sprite.svg#icon-folder"></use>
-                        </svg> DIRECTORY</a></li>
+        <nav class="items-left">
+            <ul>
+                <li> <i class="fa-brands fa-facebook"></i> </li>
+                <li> <i class="fa-brands fa-twitter"></i> </li>
+                <li> <i class="fa-brands fa-linkedin"></i> </li>
                 <li>
-                    <a href="join.html" class="nav-links">
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-add-user"></use>
-                        </svg> JOIN
-                    </a>
+                    <p>(+234) 817-362-0785</p>
                 </li>
             </ul>
         </nav>
 
-        <div class="header-box">
-            <div class="header-intro">
-                <div>
-                    <h1>Welcome to Honeyville Chamber of Commerce</h1>
-                    <span class="motto-text">Empowering Business, Building Community</span>
-                </div>
+        <nav class="items-right">
+            <ul>
+                <li> <a href="#">Contact Us</a> </li>
+                <li> <a href="#">Privacy Policy</a> </li>
+            </ul>
+        </nav>
 
-                <div>
-                    <p>Join us in the journey to empower businesses, uplift communities, and create a brighter tomorrow.
-                        We are
-                        dedicated to fostering collaboration, driving economic growth, building lasting connection</p>
-                </div>
-
-                <div class="cta-box">
-                    <a href="join.html" role="button" class="btn-join">JOIN US</a>
-                    <a href="discover.html" role="button" class="btn-explore">EXPLORE</a>
-                </div>
-            </div>
-
-            <div class="socials-box">
-                <a href="https://www.instagram.com/koigor101/" target="_blank" class="social-links"
-                    aria-label="Go to Bren's Instagram page">
-                    <svg>
-                        <use xlink:href="images/sprite.svg#icon-instagram-with-circle"></use>
-                    </svg>
-                </a>
-
-                <a href="https://www.linkedin.com/in/samuel-turay1/" target="_blank" class="social-links"
-                    aria-label="Go to Bren's LinkedIn account">
-                    <svg>
-                        <use xlink:href="images/sprite.svg#icon-linkedin-with-circle"></use>
-                    </svg>
-                </a>
-
-                <a href="https://www.facebook.com/profile.php?id=100004979054375" target="_blank" class="social-links"
-                    aria-label="Visit Bren's Facebook page">
-                    <svg>
-                        <use xlink:href="images/sprite.svg#icon-facebook"></use>
-                    </svg>
-                </a>
-
-                <a href="https://www.youtube.com/" target="_blank" class="social-links"
-                    aria-label="Go to Youtube.com homepage">
-                    <svg>
-                        <use xlink:href="images/sprite.svg#icon-youtube-with-circle"></use>
-                    </svg>
-                </a>
-            </div>
-        </div>
     </header>
 
+
+    <header>
+
+        <div class="nav-container">
+            <span>
+                <img src="images/acc_logo.png" alt="Abuja Chambers of Commerce logo" width="180" height="72">
+                <span id="icon-menu"> </span>
+            </span>
+
+            <nav class="nav-links">
+                <ul>
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="directory.html">Directory</a></li>
+                    <li><a href="join.html">Join</a></li>
+                    <li><a href="discover.html">Discover</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    </header> 
+
+
     <main>
-        <section class="news-event-section">
-            <div class="news-event-section-box">
-                <div class="news-box">
-                    <h2>NEWS BULLETINS</h2>
-                    <div class="figure-box">
-                        <img src="images/sustainabilty.WEBP" alt="" width="640" height="427" loading="lazy">
-                        <h3>Local Businesses Champion Sustainability</h3>
-                        <p>
-                            Sustainability takes center stage as local businesses embrace eco-friendly practices. This
-                            report showcases how our community's businesses are implementing sustainable initiatives,
-                            reducing their carbon footprint, and making a positive impact on the environment.
-                        </p>
-                    </div>
-                    <div class="figure-box">
-                        <img src="images/networking.WEBP" alt="" width="640" height="427" loading="lazy">
-                        <h3>Exciting Networking Events Announced</h3>
-                        <p>
-                            Stay connected and boost your business prospects with our upcoming networking events. This
-                            report unveils the Chamber's calendar of events designed to foster meaningful connections
-                            and partnerships among our members and the community. Bring your A+ game questions.
-                        </p>
-                    </div>
+        <div id="hero-container">
+            <a href="index.html"> <img src="images/homepage-photo.jpg" alt="home page hero image" width="300" height="300"> </a>
+            <span tabindex="0">Keynote Ticket</span>
+        </div>
 
-                    <div class="figure-box">
-                        <img src="images/startups.WEBP" alt="" width="640" height="427" loading="lazy">
-                        <h3>Startups Flock to Our Region</h3>
-                        <p>
-                            Discover thriving startups and elevate your business outlook with our upcoming regional
-                            events. This overview showcases the vibrant startup scene, featuring innovative ventures and
-                            opportunities for collaboration within our dynamic community. Nurture your entrepreneurial
-                            spirit. We turn ideas to reality
-                        </p>
-                    </div>
+        <h1 class="home">Home</h1>
 
-                    <div class="figure-box">
-                        <img src="images/community.WEBP" alt="" width="640" height="427" loading="lazy">
-                        <h3>Local Nonprofits Forge Community Impact</h3>
-                        <p>
-                            Experience community transformation and enhance your social footprint with our upcoming
-                            local initiatives. This glimpse highlights our commitment to nurturing community well-being,
-                            fostering positive change, and creating lasting connections that benefit all.
-                        </p>
-                    </div>
-                </div>
-                <div class="events-box">
-                    <h2>UPCOMING EVENTS</h2>
-                    <div class="event-details details">
-                        <span class="event-time"> Small Business Expo 2025 </span>
-                        <span class="event-time">Lunch & Learn: Digital Marketing</span>
-                        <span class="event-time">Holiday Bazaar: Shop Locale</span>
-                        <span class="event-time">Economic Outlook 2024</span>
-                    </div>
+        <div id="home-container">
+          
+            <div class="events">
+                <h3>Events</h3>
+                <p> <strong>Honeyville Networking Conference</strong>
+                    <br> <strong>Date:</strong> 2nd Feburary 2025
+                    <br> <strong>Time:</strong> 7:54
+                    <br> <strong>Venue:</strong> Honeyville, Ut 
 
-                </div>
+                </p>
+            </div>
 
-                <div class="weather-box">
-                    <h2>WEATHER</h2>
-                    <div class="weather-info details">
-                        <p>Honeyville, Ut</p>
-                        <p></p>
-                        <p><span id="current-temp"></span>
-                            <img id="weather-icon" src="" alt=""> <span id="description"></span></p>
-                        <p><span id="windspeed"></span>Mph, 💨 Wind Speed</p>
-                        <p><span id="wind-direction"></span> - 🍃 Wind direction</p>
-                    </div>
-                </div>
+            <div class="cWeather">
+                <h3>Current Weather</h3>
 
-                <div class="spotlight">
-                    <h2> Company Spotlight</h2>
+                <div class="weatherInfo-container">
+                    <img src="images/sun-icon.svg" width="100" height="100" alt="">
+
+                    <ul class="weather-info">
+
+                    </ul>
+
                 </div>
             </div>
-        </section>
+            <div class="wForecast">
+                <h3>Weather Forecast</h3>
 
-        <section class="partners">
-            <h2>Our Partners</h2>
-            <div class="partner-slide">
-                <img src="images/barstool-store.svg" alt="barstool-store logo" width="165" height="50">
-                <img src="images/buzzfeed.svg" alt="buzzfeed logo" width="165" height="40">
-                <img src="images/macys.svg" alt="macys logo" width="1650" height="272">
-                <img src="images/menshealth.svg" alt="menshealth logo" width="165" height="125">
-            </div>
-            <div class="partner-slide">
-                <img src="images/barstool-store.svg" alt="barstool-store logo" width="165" height="50">
-                <img src="images/buzzfeed.svg" alt="buzzfeed logo" width="165" height="40">
-                <img src="images/macys.svg" alt="macys logo" width="165" height="272">
-                <img src="images/menshealth.svg" alt="menshealth logo" width="165" height="125">
-            </div>
-        </section>
+                <ul class="forecastInfo">
 
-        <section class="services-section">
-            <h2>OUR SERVICES</h2>
+                </ul>
 
-            <div class="service-card-box">
-                <div class="card">
-                    <span>
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-megaphone"></use>
-                        </svg>
-                    </span>
-                    <h3>Advocacy and Policy Influence</h3>
-                    <p>Be part of our advocacy efforts, shaping policies, and driving positive change to create a
-                        favorable business environment</p>
-                </div>
-                <div class="card">
-                    <span>
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-modern-mic"></use>
-                        </svg>
-                    </span>
-                    <h3>Business Networking Events</h3>
-                    <p>Join our vibrant networking community to connect with local professionals, exchange ideas, and
-                        explore new opportunities for growth.</p>
-                </div>
-                <div class="card">
-                    <span>
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-users"></use>
-                        </svg>
-                    </span>
-                    <h3>Member Resources and Support</h3>
-                    <p>Access valuable resources, expert advice, and exclusive member benefits to help your business
-                        thrive and overcome challenges.</p>
-                </div>
-                <div class="card">
-                    <span>
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-slideshare"></use>
-                        </svg>
-                    </span>
-                    <h3>Community Engagement Programs</h3>
-                    <p>Engage with the community through volunteer opportunities and initiatives that contribute to the
-                        region's well-being.</p>
-                </div>
+                <p class="see"></p>
+
             </div>
-        </section>
-        <section class="explore">
-            <div class="mini-gallery-box">
-                <img src="images/gala.WEBP" alt="Photo of singer with trumpet" width="640" height="427" loading="lazy">
-                <img src="images/valentine.WEBP" alt="Photo of women holding a glass of wine" width="640" height="427"
-                    loading="lazy">
-                <img src="images/connect.WEBP" alt="Photo of people in a hall" width="640" height="427" loading="lazy">
-                <img src="images/awards.WEBP" alt="Photo of people in an auditorium" width="640" height="427"
-                    loading="lazy">
+
+        </div>
+
+        <div class="wForecast">
+            <h3>Weather Forecast</h3>
+
+            <ul class="forecastInfo">
+
+            </ul>
+
+            <p class="see"></p>
+
+        </div>
+
+        </div>
+
+        <div id="companies-container">
+
+            <div class="showCompanies"> 
+            
+        
             </div>
-            <div class="explore-text-box">
-                <h2>Explore Lynnwood</h2>
-                <p>Discover the charm and possibilities of Lynnwood—a vibrant city where community, culture, and
-                    commerce converge. Explore our diverse neighborhoods, savor culinary delights, and engage in local
-                    events. Experience Lynnwood's unique blend of opportunities for work, leisure, and connection.</p>
-            </div>
-        </section>
+        
+        </div>
+
+           
+
+      
     </main>
 
+
     <footer>
-        <div class="contact-box">
-            <p class="footer-captions">Contact Us</p>
-            <address>
-                <a href="mailto:tur22018@byui.edu">📧 lynnwoodchamber@outlook.com</a>
-                <!-- <br> -->
-                <a href="tel:+27824004469">📞 (082) 400-4469</a>
-                <p>📍 285 Lynnwood Boulevard</p>
-                <p>0081 - Guateng Province</p>
-                <p>Pretoria, South Africa</p>
-            </address>
+        <div class="footer-background">
+
+            <div class="footer-container">
+                <div class="sec-one">
+                    <p>Bren Miller Chamber of Commerce <br>
+                         <br> <br>
+                        <a href="#">bren.miller09@gmail.com</a><br>
+                        (435) 279-6443
+                    </p>
+                </div>
+
+                <div class="sec-two">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+
+                <div class="sec-three">
+                    <p>WDD231 Web Development 1 Project
+                        <br>Brigham Young University - Idaho
+                        <br>Bren Miller
+                    </p>
+                    <p id="lastModified"></p>
+                </div>
+            </div>
         </div>
-        <div class="quick-link-box">
-            <p class="footer-captions">Quick Links</p>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-<!--                <li><a href="discover.html">Discover</a></li>-->
-                <li><a href="directory.html">Directory</a></li>
-                <li><a href="join.html">Join Us</a></li>
-            </ul>
+
+        <div class="footend-container">
+            <div class="footer-end">
+                <p><span id="currentYear">©</span> Honeyville Chamber of Commerce | All rights reserved</p>
+                <p>Designed by Bren Miller</p>
+            </div>
         </div>
-        <div class="footer-socials">
-            <p class="footer-captions">Stay Connected</p>
-            <ul>
-                <li><a href="https://www.instagram.com/koigor101/" target="_blank" class="footer-social-links"
-                        aria-label="Go to Koigor's Instagram page">
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-instagram-with-circle"></use>
-                        </svg>
-                    </a></li>
-                <li><a href="https://www.linkedin.com/in/samuel-turay1/" target="_blank" class="footer-social-links"
-                        aria-label="Go to Koigor's LinkedIn account">
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-linkedin-with-circle"></use>
-                        </svg>
-                    </a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100004979054375" target="_blank"
-                        class="footer-social-links" aria-label="Go to Koigor's Facebook page">
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-facebook"></use>
-                        </svg>
-                    </a></li>
-                <li><a href="https://www.youtube.com/" target="_blank" class="footer-social-links"
-                        aria-label="Go to Youtube.com homepage">
-                        <svg>
-                            <use xlink:href="images/sprite.svg#icon-youtube-with-circle"></use>
-                        </svg>
-                    </a></li>
-            </ul>
-        </div>
-        <div class="copyright-box">
-            <p>&copy; <span id="year"></span> .:|:. Bren Miller - WDD231 .:|:. </p>
-            <p>Last modified: <span class="last-modify"></span></p>
-            <p id="analytics"></p>
-        </div>
+
     </footer>
-
-    <script defer src="scripts/index.js"></script>
 </body>
-
 
 </html>
