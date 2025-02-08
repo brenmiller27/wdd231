@@ -107,7 +107,7 @@ header nav {
 header , footer {
     margin: 5px auto;
     display: flex;
-    background-color: var(--accent1-color);
+    background-color: black;
     box-shadow: 4px 7px 7px 0px #000; 
     text-align: center;
     flex-direction: column;

@@ -102,9 +102,6 @@
 }
 
 
-
-
-
 #companies-container {
   display: grid;
   grid: 1fr/auto;
@@ -119,6 +116,12 @@
   height: 200px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+}
+
+
+.showCompanies a {
+  text-decoration: none;
+  color: white;
 }
 
 .comp-heading {
@@ -338,13 +341,6 @@ select { /* 1 */
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-   -webkit-appearance: button;
-}
 
 /**
  * Remove the inner border and padding in Firefox.

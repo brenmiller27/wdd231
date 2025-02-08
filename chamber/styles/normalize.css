@@ -1,0 +1,232 @@
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  
+  /* Grouping content
+     ========================================================================== */
+  
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  
+  hr {
+    box-sizing: content-box; /* 1 */
+    height: 0; /* 1 */
+    overflow: visible; /* 2 */
+  }
+  
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  
+  pre {
+    font-family: monospace, monospace; /* 1 */
+    font-size: 1em; /* 2 */
+  }
+  
+  /* Text-level semantics
+     ========================================================================== */
+  
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  
+  a {
+    background-color: transparent;
+  }
+  
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  
+  abbr[title] {
+    border-bottom: none; /* 1 */
+    text-decoration: underline; /* 2 */
+    text-decoration: underline dotted; /* 2 */
+  }
+  
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  
+   #hero-container {
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+
+header{
+    background-color: black;
+}
+
+#hero-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero-container span {
+    font-size: 1rem;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+
+
+#home-container {
+    display: grid;
+    grid: auto/1fr;
+    gap: 15px;
+    justify-content: center;
+    padding: 0 20px;
+
+}
+
+.home {
+    padding: 0 20px;
+}
+
+#home-container .events, .cWeather, .wForecast {
+    background-color: aqua;
+    background-color: white;
+    border-radius: 10px;
+    height: 300px;
+    width: 100%;
+    box-shadow: 0 0 10px rgb(0, 0, 0, 0.5);
+
+}
+
+#home-container .events h3, .cWeather h3, .wForecast h3 {
+    background-color: black;
+    padding: 15px;
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    color: white;
+}
+
+#home-container .events p {
+    padding: 15px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --primary-color: #2a7b48;
+    --secondary-color: #FAEDFC;
+    --accent-color1: #E6E6E6;
+    --accent-color2: #F2F2F2;
+    --accent-color3: #F4F4F4;
+
+    font-family: Outfit, "Humanst521 BT", roboto, sans-serif;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Humanst521 BT", sans-serif;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.top-banner {
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    font-size: 11px;
+    justify-content: space-between;
+    padding: 0 20px;
+
+}
+
+.top-banner .items-left ul {
+    display: flex;
+    column-gap: 6px;
+}
+
+.top-banner .items-right ul {
+    display: flex;
+    column-gap: 5px;
+}
+
+.top-banner .items-right a {
+    color: white;
+}
+
+
+
+.nav-container span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 13px;
+}
+
+.nav-container span img {
+    width: 150px;
+    height: auto;
+}
+
+.nav-container span a {
+    padding: 7px;
+
+}
+
+.nav-container .nav-links {
+    text-align: center;
+    background-color: black;
+}
+
+.nav-container .nav-links a {
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+
+.nav-container .nav-links a.active {
+    text-decoration: 2px white underline;
+}
+
+.nav-container .nav-links ul li {
+    padding: 5px 0px;
+    margin: 13px 0;
+}
+
+footer {
+    text-align: center;
+}
+
+
+

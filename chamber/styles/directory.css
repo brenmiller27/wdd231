@@ -79,7 +79,7 @@ button:hover {
 
 .card-box h3, 
 .card-box ul li {
-    color: var(--king-kong);
+    color: white;
     font-size: var(--font-size-base);
 }
 
@@ -167,4 +167,125 @@ td a:active,
         font-size: 1rem;
         text-decoration: underline;
     }
+}
+
+.att-1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.Events {
+    width: 100%;
+    height: 300px;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgb(79, 79, 79);
+
+}
+
+.Events h1 {
+    background-color: var(--primary-color);
+    padding: 15px 15px;
+    margin: 0 0;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.Events ul {
+    padding: 15px 15px;
+}
+
+.Events ul li {
+    padding-bottom: 10px;
+}
+
+
+.Calender {
+    width: 100%;
+    height: 400px;
+    background-color: #2a7b48;
+    margin: 20px 0px ;
+}
+
+
+
+
+
+
+#discover-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+
+.att-img-container {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 0px 6px rgb(79, 79, 79);
+
+}
+
+.att-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.att-img-container .ptag {
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(42, 123, 72, 0.5);
+    color: white;
+    width: 100%;
+    height: 35%;
+    object-fit: cover;
+    border-radius: 0 0 10px 10px;
+}
+
+/* .att-img-container .ptag {
+    visibility: hidden;
+} */
+
+.att-img-container .ptag:hover {
+    visibility: visible;
+    cursor: pointer;
+    background-color: rgb(42, 123, 72, 0.9);
+    /* translate: 0 10px; */
+    /* transform: rotate(-180deg); */
+    /* transition: .3s ease-in, transform 2s; */
+    animation: upDown .6s ease;
+}
+
+@keyframes upDown {
+    from {
+        transform: translateY(-20px);
+        background-color: aqua
+        ;
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+
+.ptag p {
+    padding: 10px;
+}
+
+
+.places {
+    margin-top: 20px;
+}
+
+
+footer {
+    margin-left: 500px;
 }

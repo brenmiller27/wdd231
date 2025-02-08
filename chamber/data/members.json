@@ -1,20 +1,20 @@
 {
     "companies": [
         {
-            "name": "Achiv's Production",
+            "name": "Honeyville farms",
             "address": "No 23 Tutu Layout, Kubwa Abuja",
             "phoneNumbers": "(+234) 814-343-4353",
-            "websitesUrls": "https://www.achivsproduction.com",
+            "websitesUrls": "https://www.honeyvillefarms.com",
             "tagLine": "See the world through my Lens!",
             "membershipLevels": [
                 {"silver": "🥈"}
             ]
         },
         {
-            "name": "Luna Juice Confectionary",
-            "address": "No 24 Tudun Fulani, Sabon Gari Bwari Abuja",
+            "name": "Honeyville honey",
+            "address": "8795 N hwy 38 Honeyville ut",
             "phoneNumbers": "(+234) 913-253-5023",
-            "websitesUrls": "https://www.lunajuiceconfectionary.com",
+            "websitesUrls": "https://www.honeyvillehoney.com",
             "tagLine": "Prepared with Love and Goodness",
             "membershipLevels": [
                 {"gold": "🥇"}
@@ -31,7 +31,7 @@
             ]
         },
         {
-            "name": "W3 Integrated Consult",
+            "name": "",
             "address": "No 45 Allen Street, Lugbe, Abuja",
             "phoneNumbers": "(+234) 804-906-5674",
             "websitesUrls": "https://www.w3integratedventures.com",
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "name": "Bontu Farms",
+            "name": "Sky Blue Industries",
             "address": "945 Abuja-Suleja Express Highway, Suleja, Abuja",
             "phoneNumbers": "(+234) 901-755-8256",
             "websitesUrls": "https://www.bontufarms.com.ng",
@@ -51,9 +51,9 @@
             ]
         },
         {
-            "name": "Nolz Ventures",
-            "address": "Block 9 Wuse Market, Wuse, Abuja",
-            "phoneNumbers": "(+234) 803-456-7444",
+            "name": "Honeyville Honey",
+            "address": "8790 N Hwy 38",
+            "phoneNumbers": "435-279-6443",
             "websitesUrls": "https://www.nolzventures.com",
             "tagLine": "Innovating Tomorrow Today",
             "membershipLevels": [
