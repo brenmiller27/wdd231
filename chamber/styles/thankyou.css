@@ -1,0 +1,28 @@
+#displayApp h1,
+#displayApp span p {
+    text-align: center;
+}
+
+.infoContainer {
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+
+}
+
+
+#displayApp .sec1 p,
+#displayApp .sec2 p {
+    padding: 8px;
+    border-bottom: 1px solid lightgray;
+}
+
+#displayApp .sec1,
+#displayApp .sec2 {
+    border: 1px solid lightgray;
+}
+
+
+#displayApp .sec1 {
+    background-color: var(--accent-color2);
+}
