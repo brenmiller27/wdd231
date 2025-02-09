@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bren Miller | Wdd131 - Travel about page</title>
+    <meta name="description" content="About travel assignment">
+    <meta name="author" content="Bren Miller">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/travel.css">
+    <link rel="stylesheet" href="styles/Travel-larger.css">
+    <script defer src="scripts/travel.js"></script>
+    <script defer src="scripts/form.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>Travel Log Media <i class="ri-flight-takeoff-fill"></i></h1>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                <a href="home.html" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                <a href="About.html" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                <a href="Trips.html" class="nav-link">Trips</a>
+                </li>
+                <li class="nav-item">
+                    <a href="popular.html" class="nav-link">Popular</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="home_section" id="home">
+    
+            <div class="home_container container grid">
+                <div class="home__data">
+                    <h3 class="home__subtitle">Thank you for traveling with us!</h3>
+                    <br>
+                    <h1 class="home__title">
+                        Please rate your experience with us
+                        
+                    </h1>
+                    <p class="home__description">
+                       All the trips around the world are a pleasure and 
+                       a happinesss for anyone. Enjoy the sights when you travel 
+                       saftley and without worries. 
+                    </p>
+                    <p class="home__description">
+                        Enjoy the sights when you travel 
+                        saftley and without worries.
+                    </p>
+
+                    <a href="Trips.html" class="button">
+                        Explore Trips 
+                    </a>
+                </div>
+            </div>
+        </section>
+        <form action="review.html" method="get">
+            <label for="productName">Item Sellection</label>
+            <select id="productName" name="productName" required>
+                <option value="" disabled selected>Select one of the following</option>
+            </select>
+            <label>Overall rating</label>
+            <div class="ratings">
+                <div class="star-container">
+                    <label for="star-1">⭐</label>
+                    <input type="radio" id="star-1" name="rating" value="1">
+                </div>
+                <div class="star-container">
+                    <label for="star-2">⭐⭐</label>
+                    <input type="radio" id="star-2" name="rating" value="2">
+                </div>
+                <div class="star-container">
+                    <label for="star-3">⭐⭐⭐</label>
+                    <input type="radio" id="star-3" name="rating" value="3">
+                </div>
+                <div class="star-container">
+                    <label for="star-4">⭐⭐⭐⭐</label>
+                    <input type="radio" id="star-4" name="rating" value="4">
+                </div>
+                <div class="star-container">
+                    <label for="star-5">⭐⭐⭐⭐⭐</label>
+                    <input type="radio" id="star-5" name="rating" value="5">
+                </div>
+            </div>
+        
+            <label for="installationDate">Date of installation? </label>
+            <input
+            type="date"
+            id="installationDate"
+            name="installationDate"
+            required>
+         <fieldset>
+            <legend>Which of the following features did you find useful?</legend>
+            <input type="checkbox" id="feature-1" name="features" value="feature-1">
+            <label for="feature-1">Feature 1</label>
+            <input type="checkbox" id="feature-2" name="features" value="feature-2">
+            <label for="feature-2">Feature 2</label>
+            <input type="checkbox" id="feature-3" name="features" value="feature-3">
+            <label for="feature-2">Feature 3</label>
+            <input type="checkbox" id="feature-4" name="features" value="feature-4">
+            <label for="feature-2">Feature 4</label>
+            </fieldset>
+            <br>
+            <label for="writtenReview">Written Review</label>
+            <textarea name="writtenReview" id="writtenReview"></textarea>
+
+            <label for ="userName">User Name</label>
+            <input type="text" id="userName" name="userName">
+            <input type="submit" value="submit"> 
+        </form>
+
+        
+        <div class="home__cards grid">
+            <article class="home_card">
+                <img src="images/Singapore.jpg" loading="lazy" alt="Bali" class="home_card-img" width="250" height="170">
+                <h3 class="home_card_title">Singapore</h3>
+                <div class="home_card_shadow"></div>
+            </article>
+            <article class="home_card">
+                <img src="images/Santo-domingo-trips.webp" loading="lazy"  alt="santo-domingo" class="home_card-img">
+                <h3 class="home_card_title">Dominican Republic</h3>
+                <div class="home_card_shadow"></div>
+            </article>
+            <article class="home_card">
+                <img src="images/alaska.jpg" loading="lazy" alt="Alaska" class="home_card-img">
+                <h3 class="home_card_title">Alaska</h3>
+                <div class="home_card_shadow"></div>
+            </article>
+            <article class="home_card">
+                <img src="images/London.jpg" loading="lazy" alt="santorini" class="home_card-img">
+                <h3 class="home_card_title">London</h3>
+                <div class="home_card_shadow"></div>
+            </article>
+    </div>
+    </main>
+    <footer class="footer">
+        <div class="footer__container" >
+
+          <div class="footer__content">
+            <a href="" class="footer__logo">Travel</a>
+
+            <p class="footer__description">
+                Travel the world without limits
+            </p>
+          
+        </div>
+        <br>
+        <div class="footer__data" >
+                <div>
+                    <h3 class="footer__title">About</h3>
+
+                    <br>
+
+                    <ul class="footer__links" >
+
+                        <li>  
+                            <a href="#" class="footer__link">About Us</a>
+                        </li>
+
+                        <li>  
+                            <a href="#" class="footer__link">Features</a>
+                        </li>
+                        
+                        <li>  
+                            <a href="#" class="footer__link">News & Blog</a>
+                        </li>
+                        
+                    </ul>
+                </div>
+
+                <br>
+
+            
+                <div>
+                    <h3 class="footer__title">Company</h3>
+
+                    <br>
+
+                    <ul class="footer__links" >
+
+                        <li>  
+                            <a href="#" class="footer__link">FAQs</a>
+                        </li>
+
+                        <li>  
+                            <a href="#" class="footer__link">History</a>
+                        </li>
+                        
+                        <li>  
+                            <a href="#" class="footer__link">Testimonials</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+
+                <br>
+
+                <div>
+                    <h3 class="footer__title">Contact</h3>
+
+                    <br>
+
+                    <ul class="footer__links" >
+
+                        <li>  
+                            <a href="#" class="footer__link">Call Center</a>
+                        </li>
+
+                        <li>  
+                            <a href="#" class="footer__link">Support Center</a>
+                        </li>
+                        
+                        <li>  
+                            <a href="#" class="footer__link">Contact Us</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+
+                <br>
+
+                <div>
+                    <h3 class="footer__title">Support</h3>
+
+                    <br>
+
+                    <ul class="footer__links" >
+
+                        <li>  
+                            <a href="#" class="footer__link">Privacy & Policy</a>
+                        </li>
+
+                        <li>  
+                            <a href="#" class="footer__link">Terms & Serices</a>
+                        </li>
+                        
+                        <li>  
+                            <a href="#" class="footer__link">Payments</a>
+                        </li>
+                        
+                    </ul>
+
+                </div>
+        </div>
+
+        <br>
+
+        <div class="footer__group">
+            <div class="footer__socials">
+                <a href="https://facebook.com" target="_blank" class="footer__social-link">
+                    <i class="ri-facebook-circle-fill"></i>
+
+                </a>
+                    <a href="https://instagram.com" target="_blank" class="footer__social-link">
+                    <i class="ri-instagram-line"></i>
+                    
+                </a>
+                <a href="https://twitter.com" target="_blank" class="footer__social-link">
+                    <i class="ri-twitter-x-line"></i>
+                </a>
+            </div>
+          </div>
+       </div>
+
+       <span id="currentyear"></span>
+        ©2024 🌳 Bren Christopher Miller 🌳 Utah , United States
+        <p>This Document was last modified:</p>
+        <script src="scripts/getdates.js"></script>
+    </footer>
+</body>
+</html>
