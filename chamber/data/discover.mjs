@@ -5,7 +5,7 @@ export const discover = [
       cost: "$8",
       description:
         "Come visit the beautiful landscape, gorgeous turqois colored lake. ",
-      photo_link: "https://bren.miller27/wdd231/chamber/images/Bearlake.webp",
+      photo_link: "https://brenmiller27.github.io/wdd231/chamber/images/Bearlake.webp",
       learn_more_link: "",
     },
     {
@@ -14,7 +14,7 @@ export const discover = [
       cost: "free",
       description:
         "The Grave Stone of a legendary large Grizzly Bear that roamed Northern Utah during the mid 20th century",
-      photo_link: "https://brenmiller.github.io/wdd231/chamber/images/oldephraim.webp",
+      photo_link: "https://brenmiller27.github.io/wdd231/chamber/images/oldephraim.webp",
       learn_more_link: "https://www.roadtripryan.com/go/t/utah/northern-utah/old-ephraim-s-grave",
     },
     {
@@ -23,7 +23,7 @@ export const discover = [
       cost: "Free",
       description:
         "This mausoleum is the final resting place of Ghana's first president, Kwame Nkrumah, and offers insight into his life and legacy.",
-      photo_link: "https://cdobbi.github.io/wdd231/chamber/images/mausoleum.webp",
+      photo_link: "https://brenmiller27.github.io/wdd231/chamber/images/Golden.webp",
       learn_more_link: "https://en.wikipedia.org/wiki/Golden_spike",
     },
     {
@@ -32,7 +32,7 @@ export const discover = [
       cost: "Free",
       description:
         "A beautiful waterfall located in the Eastern Region, perfect for nature lovers and adventure seekers.",
-      photo_link: "https://cdobbi.github.io/wdd231/chamber/images/falls.webp",
+      photo_link: "https://brenmiller27.github.io/wdd231/chamber/images/Locomotive-Springs.webp",
       learn_more_link: "https://www.roadtripryan.com/go/t/utah/northern-utah/locomotive-springs",
     },
     {
@@ -41,7 +41,7 @@ export const discover = [
       cost: "$12",
       description:
         "Come swim and relax in the natural spring waters",
-      photo_link: "https://cdobbi.github.io/wdd231/chamber/images/elephants.webp",
+      photo_link: "https://brenmiller27.github.io/wdd231/chamber/images/crystalhotspring.webp",
       learn_more_link: "https://en.wikipedia.org/wiki/Mole_National_Park",
     },
     {
