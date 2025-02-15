@@ -5,7 +5,7 @@ export const discover = [
       cost: "$8",
       description:
         "Come visit the beautiful landscape, gorgeous turqois colored lake. ",
-      photo_link: "https://cdobbi.github.io/wdd231/chamber/images/trade.webp",
+      photo_link: "https://bren.miller27/wdd231/chamber/images/Bearlake.webp",
       learn_more_link: "",
     },
     {
@@ -14,7 +14,7 @@ export const discover = [
       cost: "free",
       description:
         "The Grave Stone of a legendary large Grizzly Bear that roamed Northern Utah during the mid 20th century",
-      photo_link: "https://cdobbi.github.io/wdd231/chamber/images/museum.webp",
+      photo_link: "https://brenmiller.github.io/wdd231/chamber/images/oldephraim.webp",
       learn_more_link: "https://www.roadtripryan.com/go/t/utah/northern-utah/old-ephraim-s-grave",
     },
     {
