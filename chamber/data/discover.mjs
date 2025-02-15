@@ -45,30 +45,30 @@ export const discover = [
       learn_more_link: "https://en.wikipedia.org/wiki/Mole_National_Park",
     },
     {
-      name: "Kokrobite Beach",
-      address: "Kokrobite, Accra",
+      name: "Spiral Jetty",
+      address: "Northern Ut",
       cost: "Free",
       description:
         "A tranquil beach ideal for relaxation, reading, and enjoying the gentle waves.",
-      photo_link: "https://cdobbi.github.io/wdd231/chamber/images/fisherman.webp",
+      photo_link: "https://brenmiller27.github.io/wdd231/chamber/images/SprialJetty.webp",
       learn_more_link: "https://en.wikipedia.org/wiki/Kokrobite",
     },
     {
-      name: "Accra Mall Beach",
-      address: "Teshie, Accra",
-      cost: "Free",
+      name: "Park City",
+      address: "Park City, UT",
+      cost: "$150",
       description:
-        "A picturesque beach area near the Accra Mall, perfect for meals with ocean views.",
-      photo_link: "https://cdobbi.github.io/wdd231/chamber/images/baskets.webp",
+        "A picturesque beach area, with amazing ski resorts in the winter time",
+      photo_link: "https://brenmiller27.github.io/wdd231/chamber/images/parkcity.webp",
       learn_more_link: "https://en.wikipedia.org/wiki/Accra",
     },
     {
-      name: "Teshie Beach",
-      address: "Teshie, Accra",
+      name: "Salt Flats",
+      address: "Northwest, Ut",
       cost: "Free",
       description:
-        "Great for water sports like jet skiing and sailing, offering plenty of adventure.",
-      photo_link: "https://cdobbi.github.io/wdd231/chamber/images/huts.webp",
+        "Great for driving, and for the many adventures on Utah's famous Bonneville Salt Flats",
+      photo_link: "https://brenmiller27.github.io/wdd231/chamber/images/Salt-flats.webp",
       learn_more_link: "https://en.wikipedia.org/wiki/Teshie",
     },
   ];
