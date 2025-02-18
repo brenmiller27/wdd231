@@ -63,7 +63,6 @@
 
     </header> 
 
-
     <main>
 
         <div id="hero-container">
@@ -86,27 +85,41 @@
                 </p>
             </div>
 
-            <div class="cWeather">
-                <h3>Current Weather</h3>
-
-                <div class="weatherInfo-container">
-                    <img src="images/sun-icon.svg" width="100" height="100" alt="">
-
-                    <ul class="weather-info">
-
+            <div class="cards">
+                <aside class="events">
+                    <h2>Networking Events</h2>
+                    <ul class="events-list">
+                        <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididun </li>
                     </ul>
-
-                </div>
-            </div>
-            <div class="wForecast">
-                <h3>Weather Forecast</h3>
-
-                <ul class="forecastInfo">
-
-                </ul>
-
-                <p class="see"></p>
-
+                </aside>
+                <aside class="weather">
+                    <h2>Current Weather
+                        <span class="weather-icon">🌤️</span>
+                    </h2>
+                    <p>
+                        <span>Temperature:</span>
+                        <span id="currentTemp">78</span>°C
+                    </p>
+                    <p>
+                        <span>Feels Like:</span>
+                        <span id="windChill">32</span>°C
+                    </p>
+                    <p>
+                        <span>Wind:</span>
+                        <span id="windSpeed"></span>km/h
+                    </p>
+                    <p>
+                        <span>Conditions:</span>
+                        <span id="condition"></span>
+                    </p>
+                </aside>
+                <aside class="forecast">
+                    <h2>Forecast</h2>
+                    <p>
+                        <span>Tomorrow:</span>
+                        <span id="forecastTemp" data-day="tomorrow">33</span>°C
+                    </p>
+                </aside>
             </div>
 
         </div>

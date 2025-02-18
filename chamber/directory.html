@@ -13,39 +13,60 @@
     <link rel="stylesheet" href="styles/directory.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="stylesheet" href="styles/base.css">
+
     <script src="scripts/getdates.js" defer></script>
-</head>
-        <body id="directory-page">
-            <h2 class="Main Title">Directory</h2>
-            <header>
-                <nav>
-                    <div class="box-logo-header">
-                        <img class="logo-chamber" src="../chamber/images/logo-chamber-modified-small.webp"
-                            alt="Logo Chamber Panama" />
-                        <h1 class="nameHeader">Honeyville,Utah Chanmber of commerce </h1>
-                        <button name="navigation button" id="menu" aria-label="Toggle menu"></button>
-                    </div>
-                    <ul>
-                        <li><a class="nav-a " href="./index.html">Home</a></li>
-                        <li><a class="nav-a " href="./discover.html">Discover</a></li>
-                        <li><a class="nav-a " href="./directory.html">Directory</a></li>
-                        <li><a class="nav-a " href="./join.html">Join</a></li>
-                    </ul>
-                </nav>
-            </header>
-
-                <h2 class="Main-title">Directory</h2>
-                <div class="button-box">
-                    <button title="List view" class='mybtn activebtn' id="list-view-btn"><i class='fas fa-list'></i></button>
-                    <button title="Grid view" class='mybtn' id="grid-view-btn"><i class='fas fa-border-all'></i></button>
-                </div>
-        
-                <div id="directory-box"></div>
-            </main>
-    </main>
     
-</body>
-<footer>
+    <script src="scripts/directory.js" defer></script>
+</head>
+<body>
+    <header>
+        <img src="images/moab.jpeg" alt="Ghana Chamber of Commerce Logo" width="150" height="150">
+        <h1>Honeyville<br>CHAMBER OF COMMERCE</h1>
+        <nav>
+            <ul class="nav-links">
+                <li>
+                    <a href="index.html" target="_blank" data-text="Home">Home</a>
+                </li>
+                <li>
+                    <a href="directory.html" target="_blank" data-text="Chamber">Directory</a>
+                </li>
+                <li>
+                    <a href="join.html" target="_blank" data-text="Form">Join</a>
+                </li>
+                <li>
+                    <a href="discover.html" target="_blank" data-text="Discover">Discover</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="hamburger" aria-label="Toggle navigation" aria-expanded="false">
+            &#9776;
+        </button>
+    </header>
+    <main>
 
-</footer>
+        <h2>Directory</h2>
+        <div class="business-cards-controls">
+            <button id="toggleViewBtn" aria-label="Toggle between grid and list view">Switch to List View</button>
+        </div>
+        <div class="business-cards"></div>
+    </main>
+
+    <footer>
+        <p>Honeyville<br>Chamber of Commerce<br>1<br>Honeyville, UT<br>435-279-6443</p>
+        <div class="social-icons">
+            <a href="https://www.google.com/maps/place/Accra,+Ghana/" target="_blank" class="social-icon">
+                <img src="images/map.webp" alt="">
+            </a>
+            <a href="https://www.facebook.com/robdobb/" target="_blank" class="social-icon">
+                <img src="images/facebook.webp" alt="Facebook icon">
+            </a>
+            <a href="https://cdobbi.github.io/wdd231" target="_blank" class="social-icon">
+                <img src="images/portfolio.webp" alt="Portfolio icon">
+            </a>
+        </div>
+        <p>&copy; <span id="currentyear"></span> WDD - 231 Chamber Directory<br>Bren Miller<br>Last modified:<br> 
+              <script src="scripts/getdates.js"></script>  </p>
+    </footer>
+</body>
+
 </html>

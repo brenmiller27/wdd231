@@ -19,7 +19,8 @@ header {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    background: var(--primary-color);
+    justify-items: center;
+    background: black;
     padding: 1.5rem;
     position: relative;
 }
